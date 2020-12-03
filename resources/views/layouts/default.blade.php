@@ -14,10 +14,10 @@
 		
 		@section('main-menu')
 		<div class="menu">
+			<div class="menu-point"><a href="/departments">Отделы</a></div>
+			<div class="menu-point"><a href="/clients">Клиенты</a></div>
+			<div class="menu-point"><a href="/employees">Сотрудники</a></div>
 			<div class="menu-point"><a href="/groups">Группы</a></div>
-			<div class="menu-point"><a href="/staff">Сотрудники</a></div>
-			<div class="menu-point"><a href="/schools">Школы</a></div>
-			<div class="menu-point"><a href="/programs">Программы</a></div>
 		</div>
 		@show
 		

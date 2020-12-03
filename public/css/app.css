@@ -1,25 +1,31 @@
 		.is-invalid{
-			box-shadow: 0 0 5px 5px #ffc8a8;
+			box-shadow: 0 0 5px 5px ##59392D;
 			border:0;
 			
 		}
 		
 		.alert{
-			border-radius:50px;
-			background-color:#ffc8a8;
+			background-color:#59392D;
+			color: #ffffff;
 			margin-bottom: 20px;
 			padding: 10px;
 		}
 		.title{
 			font-size: 120%;
-			border-radius:50px;
-			background-color:#eeeeee;
+			color: #ffffff;
+			background-color:#244035;
 			margin-bottom: 20px;
 			padding: 10px;
 		}
 		.button-create{
 			right: 10%; 
 			position: absolute;
+			background-color:#ADD9CC;
+		}
+		
+		.button-right{
+			padding:10px;
+			margin-bottom: 30px; 
 		}
 		
 		body, select, input{
@@ -40,8 +46,7 @@
 		}
 		.menu-point{
 			margin-bottom: 7%;
-			border: 1px solid gray;
-			border-radius: 50px;
+			background-color:#E3F2F0;
 			padding: 10px;
 		}
 		.content{
@@ -54,7 +59,6 @@
 		.list{
 			padding:10px;
 			border: 1px solid gray;
-			border-radius: 25px;
 			margin-bottom: 10px;
 		}
 		.list-point{
@@ -68,9 +72,13 @@
 		}
 		button {
 			margin-bottom: 10px;
-			border: 1px solid black;
-			border-radius: 50px;
-			background-color: white;
+			border: 0px;
+			background-color: #E4F2F0;
 			padding: 10px;
 			font-family: Courier New;
 		}
+		svg {
+			width: 10px;
+			height: 10px;
+		}
+		
